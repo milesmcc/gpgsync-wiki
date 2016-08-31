@@ -1,3 +1,5 @@
+![GPG Sync](https://github.com/firstlookmedia/gpgsync/blob/master/logo/logo.png)
+
 GPG Sync is designed to let users always have up-to-date GPG public keys for other members of their organization.
 
 If you're part of an organization that uses GPG internally you might notice that it doesn't scale well. New people join and create new keys and existing people revoke their old keys and transition to new ones. It quickly becomes unwieldy to ensure that everyone has a copy of everyone else's current key, and that old revoked keys get refreshed to prevent users from accidentally using them.
