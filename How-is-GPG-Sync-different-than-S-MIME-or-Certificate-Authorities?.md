@@ -1,0 +1,7 @@
+GPG Sync does one thing: Makes sure members of an organization always have up-to-date public keys from a centrally-managed list.
+
+Unlike with S/MIME or CAs, users don't need to trust the central authority. At worst, a malicious authority could make you download fake public keys. If you manually verify fingerprints and sign keys, your OpenPGP software should pick the correct key to encrypt to each time. If you don't manually verify fingerprints and sign keys, then at least you won't be automatically encrypting to people's old revoked keys, and you'll get the latest keys for new members of your organization without having to manually find them and import them.
+
+If you trust the person who manages the authority key, you could even sign it and set an `ownertrust` to `Full`. If the authority key cross-signs the keys of everyone in your organization, you'll have an internal web of trust, and can have much stronger confidence in all of the keys, even without requiring everyone to sign everyone else's key (a decentralized process that requires exponentially more work with each person who joins the organization).
+
+S/MIME might be a better option than OpenPGP for some organizations. But OpenPGP has the advantage that it's more popular, it doesn't require trusting a central authority, and it's simpler to use when communicating securely with people across multiple organizations.
