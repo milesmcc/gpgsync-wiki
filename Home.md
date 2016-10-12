@@ -17,4 +17,4 @@ Here are some features:
 * Makes sure non-revoked public keys are refreshed once a day
 * Works seamlessly with the web of trust
 
-If you'd like to test out GPG Sync without creating your own authority key and fingerprints file, you can use one that [we created for testing](/fingerprints/README.md).
+If you'd like to test out GPG Sync without creating your own authority key and fingerprints file, you can use one that [we created for testing](https://github.com/firstlookmedia/gpgsync/blob/master/fingerprints/README.md).
