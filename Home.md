@@ -10,7 +10,7 @@ Now each member of your organization will have up-to-date public keys for each o
 
 Here are some features:
 
-* Works in Mac OS X and Linux
+* Works in macOS, Windows, and Linux
 * Creates system tray applet that launches automatically on boot
 * Downloads from HKPS key server by default, but customizable
 * Supports fetching fingerprints URL over Tor or other SOCKS5 proxies
